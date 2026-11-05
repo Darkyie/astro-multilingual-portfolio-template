@@ -122,14 +122,16 @@
     "buttonText": "Enviar um Email"
   },
   "contact": {
-    "title": "Contato",
-    "subtitle": "Sinta-se à vontade para entrar em contato para oportunidades ou colaborações!",
+    "title": "Contact",
+    "subtitle": "Feel free to reach out for opportunities or collaborations!",
     "emailTitle": "Email",
-    "emailButtonText": "Enviar Email",
+    "emailButtonText": "Send Email",
+    "phoneTitle": "Phone",
+    "phoneButtonText": "Call Me",
     "githubTitle": "LinkedIn",
-    "githubButtonText": "Ver Perfil",
+    "githubButtonText": "View Profile",
     "linkedinTitle": "LinkedIn",
-    "linkedinButtonText": "Conectar no LinkedIn"
+    "linkedinButtonText": "Connect on LinkedIn"
   },
   "footer": {
     "copyright": "Todos os direitos reservados.",
