@@ -11,7 +11,7 @@ export default defineConfig({
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'de'],
+    locales: ['en', 'pt'],
     routing: {
       prefixDefaultLocale: false, // English pages won't have /en/, German will have /de/
     },
