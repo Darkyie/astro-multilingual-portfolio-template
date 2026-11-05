@@ -1,5 +1,5 @@
 import enTranslations from '../i18n/en.json';
-import deTranslations from '../i18n/pt.json';
+import ptTranslations from '../i18n/pt.json';
 
 const translations = {
   en: enTranslations,
@@ -12,6 +12,7 @@ type TranslationKeys = keyof typeof ptTranslations; // Or enTranslations, assumi
 function getNestedValue(obj: any, path: string): string | undefined {
   const keys = path.split('.');
   let current = obj;
+
   for (const key of keys) {
     if (current && typeof current === 'object' && key in current) {
       current = current[key];
@@ -19,6 +20,7 @@ function getNestedValue(obj: any, path: string): string | undefined {
       return undefined;
     }
   }
+
   return typeof current === 'string' ? current : undefined;
 }
 
@@ -30,6 +32,7 @@ export function t(key: string, lang: string | undefined): string {
 
   if (value === undefined) {
     console.warn(`Translation key "${key}" not found for language "${currentLang}". Falling back to key.`);
+    
     // Fallback to trying the default language if not already trying it
     if (currentLang !== 'en') {
       const fallbackValue = getNestedValue(translations.en, key);
@@ -37,8 +40,10 @@ export function t(key: string, lang: string | undefined): string {
         return fallbackValue;
       }
     }
+    
     return key; // Return the key itself as a last resort
   }
+
   return value;
 }
 
