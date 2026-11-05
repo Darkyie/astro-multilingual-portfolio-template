@@ -1,5 +1,5 @@
 export const name = "Igor Benites Moura";
-export const homepage_url = "https://fabian-bitzer.de/";
+export const homepage_url = "https://teal-beijinho-f26110.netlify.app/";
 export const linkedin_username = "igor-benites-moura";
 export const github_username = "darkyie";
 
