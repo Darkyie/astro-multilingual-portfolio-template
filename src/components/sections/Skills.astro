@@ -11,55 +11,28 @@ const { lang } = Astro.props;
 
 const skillClusters = [
   {
-    id: 'design-media',
-    title: t('skills.clusters.frontend.title', lang),
+    id: 'qa-core',
+    title: t('skills.clusters.frontend.title', lang), // Título puxado do JSON
     description: t('skills.clusters.frontend.description', lang),
-    icon: PaletteIcon,
+    icon: Bug, // Você precisará importar o ícone Bug de '@lucide/astro'
     tools: [
-      { name: 'Adobe Creative Cloud', icon: LayersIcon },
-      { name: 'Photoshop', icon: ImageIcon },
-      { name: 'Illustrator', icon: PenToolIcon },
-      { name: 'Premiere Pro', icon: VideoIcon },
-      { name: 'After Effects', icon: ClapperboardIcon },
-      { name: 'Lightroom', icon: CameraIcon },
-      { name: 'Adobe Audition', icon: Mic2Icon },
-      { name: 'Figma', icon: FigmaIcon },
-    ]
+      { name: 'Jira', icon: ClipboardList }, // Importe ClipboardList
+      { name: 'TestRail', icon: TestTube }, // Importe TestTube
+      { name: 'Manual Testing', icon: Bug },
+      { name: 'Regression Testing', icon: RefreshCw }, // Importe RefreshCw
+      { name: 'API Testing (Postman)', icon: Send }, // Importe Send
+    ],
   },
   {
-    id: 'web-it',
+    id: 'platforms',
     title: t('skills.clusters.design.title', lang),
     description: t('skills.clusters.design.description', lang),
     icon: Code2Icon,
     tools: [
-      { name: 'HTML/CSS', icon: FileCodeIcon },
-      { name: 'JavaScript', icon: BracesIcon },
-      { name: 'Python', icon: TerminalIcon },
-      { name: 'Astro', icon: RocketIcon },
-      { name: 'WordPress', icon: Globe2Icon },
-      { name: 'Elementor', icon: LayoutGridIcon },
-    ]
-  },
-  {
-    id: 'marketing-content',
-    title: t('skills.clusters.tools.title', lang),
-    description: t('skills.clusters.tools.description', lang),
-    icon: MegaphoneIcon,
-    tools: [
-      { name: 'LinkedIn Marketing', icon: LinkedinIcon },
-      { name: 'Content Creation', icon: Edit3Icon },
-      { name: 'SEO Basics', icon: SearchCheckIcon },
-    ]
-  },
-  {
-    id: 'management-organization',
-    title: 'Management & Organization',
-    description: 'Structured processes, efficient workflows, and collaborative project work.',
-    icon: KanbanSquareIcon,
-    tools: [
-      { name: 'Asana', icon: CheckSquareIcon },
-      { name: 'Notion', icon: BookTextIcon },
-      { name: 'Miro', icon: LayoutDashboardIcon },
+      { name: 'PC / Windows', icon: Monitor }, // Importe Monitor
+      { name: 'PS5 Dev Kit', icon: Gamepad2 }, // Importe Gamepad2
+      { name: 'Xbox Dev Kit', icon: Gamepad2 },
+      { name: 'Nintendo Switch', icon: Gamepad2 },
     ]
   }
 ];
