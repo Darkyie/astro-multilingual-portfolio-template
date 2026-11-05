@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Nicremo - Portfolio",
-    "description": "Developer and creator of modern web templates focusing on Astro, multilingual support, and performance optimization."
+    "title": "Igor Benites Moura - QA Tester",
+    "description": "QA Tester specializing in Game QA, manual testing, and technical reporting. Over 1000 bugs documented across AAA titles."
   },
   "nav": {
     "start": "Start",
@@ -12,121 +12,121 @@
   },
   "hero": {
     "greeting": "Hello, I am",
-    "name": "Nicremo",
-    "pitch": "I create modern, multilingual web templates and share them on GitHub to help developers build fast, accessible websites.",
-    "role": "Template Creator & Developer",
+    "name": "Igor Benites Moura",
+    "pitch": "I help game and software teams ship higher-quality products by identifying critical bugs before they reach players and users. I combine technical depth with a detail-oriented, analytical mindset.",
+    "role": "QA Tester | Game Tester | Python | C# | Java",
     "ctaProjects": "View Projects",
     "ctaAbout": "More About Me"
   },
   "values": {
     "title": "My Approach",
-    "subtitle": "These three values shape my work and help me create compelling web templates.",
-    "card1Title": "Performance",
-    "card1Text": "Fast loading times and optimal performance are the foundation for great user experiences – every template achieves 90+ Lighthouse scores.",
-    "card2Title": "Accessibility",
-    "card2Text": "Multilingual support and WCAG 2.1 AA compliance ensure that everyone can use the templates, regardless of language or abilities.",
-    "card3Title": "Developer Experience",
-    "card3Text": "Clean code, clear documentation, and easy customization through JSON files make it simple for developers to get started quickly."
+    "subtitle": "These three values shape my work and help me ensure the highest quality in every project.",
+    "card1Title": "Analytical & Detail-Oriented",
+    "card1Text": "I look 'under the hood' to understand architecture and hardware constraints, providing developers with precise, actionable, and technically grounded defect reports.",
+    "card2Title": "Resilient Under Pressure",
+    "card2Text": "From managing IT demands for over 1,000 users to the fast-paced environment of AAA game development, I stay focused and solve critical problems on the fly.",
+    "card3Title": "Collaborative & Solution-Focused",
+    "card3Text": "I believe the best products come from a balance of technical excellence and a collaborative mindset, working closely with cross-functional teams to resolve issues."
   },
   "skills": {
     "title": "Skills & Tools",
-    "subtitle": "With these tools and technologies, I create modern, performant web templates.",
+    "subtitle": "With these tools and technologies, I ensure software and game quality.",
     "clusters": {
       "frontend": {
-        "title": "Frontend & Frameworks",
-        "description": "Modern web development with Astro, React, and static site generation."
+        "title": "Quality Assurance",
+        "description": "Manual testing, functional QA, and comprehensive bug tracking."
       },
       "design": {
-        "title": "Design & Styling",
-        "description": "Beautiful interfaces with Tailwind CSS, responsive design, and dark mode support."
+        "title": "Technical Foundation",
+        "description": "Computer science logic, software architecture, and hardware troubleshooting."
       },
       "tools": {
-        "title": "Development Tools",
-        "description": "Version control, deployment, and optimization for production-ready templates."
+        "title": "Platforms & Tools",
+        "description": "Version control, issue tracking, and testing across multiple gaming platforms."
       }
     },
     "category": {
-      "design": "Design",
-      "coding": "Coding",
-      "framework": "Framework",
-      "deployment": "Deployment"
+      "design": "Testing",
+      "coding": "Programming",
+      "framework": "Platforms",
+      "deployment": "Tools"
     },
     "astro": {
-      "description": "Static Site Generation & Performance"
+      "description": "Manual & Exploratory Testing"
     },
     "react": {
-      "description": "Interactive Components & UI"
+      "description": "Functional QA (FQA)"
     },
     "tailwind": {
-      "description": "Utility-First Styling & Design"
+      "description": "Bug Tracking & Reporting"
     },
     "typescript": {
-      "description": "Type-Safe Development"
+      "description": "Python, C# & Java"
     },
     "git": {
-      "description": "Version Control & Collaboration"
+      "description": "Atlassian Jira & Confluence"
     },
     "vercel": {
-      "description": "Deployment & Hosting"
+      "description": "PC, PS5, XBOX & Switch"
     }
   },
   "projects": {
-    "pageTitle": "Projects",
-    "pageDescription": "A collection of open-source templates and projects shared on GitHub.",
-    "heroTitle": "My Projects",
-    "heroSubtitle": "Explore my collection of web templates and open-source projects.",
-    "viewProject": "View Project",
+    "pageTitle": "Experience",
+    "pageDescription": "A collection of my professional experience and case studies in Quality Assurance.",
+    "heroTitle": "My Experience",
+    "heroSubtitle": "Explore my background in game testing and IT support.",
+    "viewProject": "View Details",
     "detailLabels": {
       "challenge": "Challenge",
       "approach": "Approach",
       "result": "Result",
-      "technologiesUsed": "Technologies Used"
+      "technologiesUsed": "Skills Applied"
     },
-    "title": "Selected Projects",
-    "subtitle": "Open-source templates and projects available on GitHub for developers worldwide.",
+    "title": "Selected Experience",
+    "subtitle": "Key roles where I contributed to software and game quality.",
     "astroPortfolio": {
-      "shortDescription": "Modern, multilingual portfolio template built with Astro and Tailwind CSS featuring dark mode and i18n support.",
-      "challenge": "Creating a performant, multilingual portfolio template that's easy to customize without touching code.",
-      "approach": "Using Astro for optimal performance, JSON-based content management, and comprehensive documentation for easy setup.",
-      "result": "100/100 Lighthouse score, fully responsive, available in multiple languages, and used by developers worldwide."
+      "shortDescription": "Comprehensive functional QA for multiple high-profile AAA titles.",
+      "challenge": "Ensure a smooth, bug-free experience for players across complex game systems and hardware platforms.",
+      "approach": "Executed manual test plans, performed exploratory and regression testing, and documented over 1000 bugs using Jira.",
+      "result": "Contributed to a significantly higher quality bar for released titles, helping prevent critical issues from reaching players."
     },
     "coreprotectWebUI": {
-      "shortDescription": "Web interface for CoreProtect Minecraft plugin with real-time player activity tracking and analytics.",
-      "challenge": "Visualizing complex Minecraft server data in an intuitive, player-centric dashboard.",
-      "approach": "Astro SSR with React components, MySQL integration, and responsive dark-themed UI with real-time updates.",
-      "result": "663,000+ block changes tracked, 4,000+ container transactions, comprehensive player activity monitoring."
+      "shortDescription": "Managed hardware and software demands for a network of 1,000+ users.",
+      "challenge": "Maintain critical IT infrastructure for a large government secretariat, ensuring minimal downtime for essential public services.",
+      "approach": "Provided hands-on technical support, diagnosed and resolved hardware and software issues, and managed user demands under pressure.",
+      "result": "Developed strong resilience and problem-solving skills, ensuring continuous operation for a large user base."
     },
     "templateCollection": {
-      "shortDescription": "Growing collection of Astro templates shared on GitHub focusing on different use cases and industries.",
-      "challenge": "Providing developers with production-ready templates that are easy to customize and deploy.",
-      "approach": "Creating modular, well-documented templates with SEO optimization and modern best practices.",
-      "result": "Multiple templates with growing community adoption and positive feedback from developers."
+      "shortDescription": "Academic background in Computer Science providing a strong technical foundation for QA.",
+      "challenge": "Understanding the underlying architecture and hardware constraints of modern software and games.",
+      "approach": "Studied logic, software architecture, and programming languages (Python, C#, Java) to bridge the gap between testing and development.",
+      "result": "Ability to provide developers with high-precision, actionable, and technically grounded defect reports."
     },
-    "buttonText": "View on GitHub",
-    "allProjectsButtonText": "All Projects on GitHub"
+    "buttonText": "View on LinkedIn",
+    "allProjectsButtonText": "Connect on LinkedIn"
   },
   "timeline": {
     "title": "My Journey",
-    "subtitle": "Development experience and important milestones in my career as a template creator.",
-    "item1Title": "Open Source Contributor",
-    "item1Description": "Creating and maintaining modern web templates on GitHub. Focus: Astro, multilingual support, performance optimization.",
-    "item2Title": "Web Development",
-    "item2Description": "Building production-ready websites and applications. Skills: Astro, React, TypeScript, Tailwind CSS, SSR.",
-    "item3Title": "Template Creator",
-    "item3Description": "Designing and developing reusable templates for portfolios, landing pages, and web applications with comprehensive documentation.",
-    "buttonText": "View GitHub Profile"
+    "subtitle": "Professional experience and academic milestones in my career.",
+    "item1Title": "FQA - Game Tester at TestFly",
+    "item1Description": "October 2025 - Present. Identified and documented over 1000 bugs across multiple AAA titles. Provided high-precision defect reports to development teams.",
+    "item2Title": "IT Support Intern at SVMA",
+    "item2Description": "July 2023 - December 2024. Managed hardware and software demands for a network of over 1,000 users in the city of São Paulo.",
+    "item3Title": "B.Sc. in Computer Science",
+    "item3Description": "Universidade Presbiteriana Mackenzie (2022 - 2025). Built a solid foundation in technical logic and software architecture.",
+    "buttonText": "View LinkedIn Profile"
   },
   "footerCTA": {
-    "title": "Need a Template?",
-    "subtitle": "Check out my open-source templates on GitHub and start building your next project today.",
-    "buttonText": "Browse on GitHub"
+    "title": "Let's Connect",
+    "subtitle": "I'm always open to discussing new opportunities, collaborations, or just talking about QA and games.",
+    "buttonText": "Send an Email"
   },
   "contact": {
     "title": "Contact",
-    "subtitle": "Have questions about my templates or want to collaborate? Feel free to reach out!",
+    "subtitle": "Feel free to reach out for opportunities or collaborations!",
     "emailTitle": "Email",
     "emailButtonText": "Send Email",
-    "githubTitle": "GitHub",
+    "githubTitle": "LinkedIn",
     "githubButtonText": "View Profile",
     "linkedinTitle": "LinkedIn",
     "linkedinButtonText": "Connect on LinkedIn"
