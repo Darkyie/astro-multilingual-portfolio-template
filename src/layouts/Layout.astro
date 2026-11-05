@@ -2,7 +2,7 @@
 import Navbar from '../components/layout/Navbar.astro';
 import Footer from '../components/sections/Footer.astro';
 import '../styles/global.css';
-import { t } from '../utils/i18n'; // Import the translation helper
+import { t } from '../utils/i18n';
 import favicon_white from '../assets/favicon.png';
 import profileImg from '../assets/profile.png';
 import { name, linkedin_url, github_url } from '../utils/me';
@@ -10,12 +10,11 @@ import { name, linkedin_url, github_url } from '../utils/me';
 export interface Props {
   title?: string;
   description?: string;
-  lang?: string; // To explicitly pass lang, though Astro.currentLocale is preferred
+  lang?: string;
 }
 
 const lang = Astro.props.lang || Astro.currentLocale;
 
-// Use translated strings for default title and description
 const {
   title = t('site.title', lang),
   description = t('site.description', lang)
@@ -23,7 +22,7 @@ const {
 ---
 
 <!DOCTYPE html>
-<html lang={lang || 'en'}> {/* Set lang attribute dynamically */}
+<html lang={lang || 'en'}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,9 +30,8 @@ const {
     <title>{title}</title>
 
     <!-- Favicons -->
-    <link rel="icon" type="image/svg+xml" href={favicon_white.src} /> {/* Keep SVG for modern browsers */}
-    <link rel="icon" type="image/png" href={favicon_white.src} /> {/* Use new PNG favicon */}
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" /> {/* Assuming you might add a 180x180 apple-touch-icon.png to /public */}
+    <link rel="icon" type="image/png" href={favicon_white.src} />
+    <link rel="apple-touch-icon" href={favicon_white.src} />
 
     <!-- Canonical URL -->
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site!).href} />
@@ -44,8 +42,8 @@ const {
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={new URL(profileImg.src, Astro.site!).href} />
-    <meta property="og:site_name" content={t('site.title', lang)} /> {/* Added site_name */}
-    <meta property="og:locale" content={lang === 'en' ? 'en_US' : 'de_DE'} /> {/* Added locale */}
+    <meta property="og:site_name" content={t('site.title', lang)} />
+    <meta property="og:locale" content={lang === 'en' ? 'en_US' : 'pt_BR'} />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
@@ -53,15 +51,10 @@ const {
     <meta property="twitter:title" content={title} />
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={new URL(profileImg.src, Astro.site!).href} />
-    {/* <meta name="twitter:site" content="@yourtwitterhandle"> */} {/* Optional: if you have a Twitter handle */}
-    {/* <meta name="twitter:creator" content="@yourtwitterhandle"> */} {/* Optional: if you have a Twitter handle */}
 
     <!-- Hreflang links -->
-    {/* For the default locale (en) */}
-    <link rel="alternate" hreflang="en" href={new URL(Astro.url.pathname.replace('/de/', '/'), Astro.site!).href.replace('/de', '')} />
-    {/* For the German locale */}
-    <link rel="alternate" hreflang="de" href={new URL('/de' + Astro.url.pathname.replace('/de/', '/'), Astro.site!).href} />
-    {/* x-default */}
+    <link rel="alternate" hreflang="en" href={new URL(Astro.url.pathname.replace('/pt/', '/'), Astro.site!).href.replace('/pt', '')} />
+    <link rel="alternate" hreflang="pt" href={new URL('/pt' + Astro.url.pathname.replace('/pt/', '/'), Astro.site!).href} />
     <link rel="alternate" hreflang="x-default" href={new URL(Astro.url.pathname.replace('/en/', '/'), Astro.site!).href.replace('/en', '')} />
 
     <!-- Fonts -->
@@ -77,13 +70,7 @@ const {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "url": Astro.site!.href,
-      "name": t('site.title', lang),
-      "alternateName": "Portfolio Website",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": `${Astro.site!.href}search?q={search_term_string}`,
-        "query-input": "required name=search_term_string"
-      }
+      "name": t('site.title', lang)
     })} />
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
@@ -91,8 +78,8 @@ const {
       "name": name,
       "url": Astro.site!.href,
       "image": new URL(profileImg.src, Astro.site!).href,
-      "jobTitle": t('hero.role', lang), // "Dualer Student @ Digitale Medien" or "Dual Student @ Digital Media"
-      "description": description, // Main site description
+      "jobTitle": t('hero.role', lang),
+      "description": description,
       "sameAs": [
         linkedin_url,
         github_url
@@ -127,10 +114,7 @@ const {
       });
     </script>
 
-    {/* Theme logic is now handled by src/scripts/theme-toggle.js, imported by ThemeToggle.astro component */}
-    {/* <script is:inline src="../scripts/theme.js"></script> */}
-
-    <!-- Animation script - importing correctly -->
+    <!-- Animation script -->
     <script src="../scripts/animations.js"></script>
   </body>
 </html>
