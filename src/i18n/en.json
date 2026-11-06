@@ -13,9 +13,9 @@
   "hero": {
     "greeting": "Hello, I am",
     "name": "Igor Benites Moura",
-    "pitch": "I help game and software teams ship higher-quality products by identifying critical bugs before they reach players and users. I combine technical depth with a detail-oriented, analytical mindset.",
+    "pitch": "I help game and software teams ship higher-quality products by identifying critical bugs before they reach players. I combine deep technical knowledge, agile methodologies, and a detail-oriented mindset to ensure seamless user experiences.",
     "role": "QA Tester | Game Tester | Python | C# | Java",
-    "ctaProjects": "View Projects",
+    "ctaProjects": "View Experience",
     "ctaAbout": "More About Me"
   },
   "values": {
@@ -23,10 +23,10 @@
     "subtitle": "These three values shape my work and help me ensure the highest quality in every project.",
     "card1Title": "Analytical & Detail-Oriented",
     "card1Text": "I look 'under the hood' to understand architecture and hardware constraints, providing developers with precise, actionable, and technically grounded defect reports.",
-    "card2Title": "Resilient Under Pressure",
-    "card2Text": "From managing IT demands for over 1,000 users to the fast-paced environment of AAA game development, I stay focused and solve critical problems on the fly.",
-    "card3Title": "Collaborative & Solution-Focused",
-    "card3Text": "I believe the best products come from a balance of technical excellence and a collaborative mindset, working closely with cross-functional teams to resolve issues."
+    "card2Title": "Agile & Collaborative",
+    "card2Text": "Experienced in Agile environments (Scrum/Kanban), I work closely with cross-functional teams to resolve critical issues quickly and keep the development cycle moving.",
+    "card3Title": "Resilient & Proactive",
+    "card3Text": "From managing IT demands for over 1,000 users to fast-paced AAA game development, I stay focused under pressure, anticipating risks before they become blockers."
   },
   "skills": {
     "title": "Skills & Tools",
@@ -34,15 +34,15 @@
     "clusters": {
       "frontend": {
         "title": "Quality Assurance",
-        "description": "Manual testing, functional QA, and comprehensive bug tracking."
+        "description": "Manual testing, functional QA, localization, and comprehensive bug tracking."
       },
       "design": {
         "title": "Technical Foundation",
-        "description": "Computer science logic, software architecture, and hardware troubleshooting."
+        "description": "Computer science logic, API testing, and software architecture."
       },
       "tools": {
         "title": "Platforms & Tools",
-        "description": "Version control, issue tracking, and testing across multiple gaming platforms."
+        "description": "Agile methodologies, issue tracking, and testing across multiple gaming platforms."
       }
     },
     "category": {
@@ -52,22 +52,22 @@
       "deployment": "Tools"
     },
     "astro": {
-      "description": "Manual & Exploratory Testing"
+      "description": "Manual, Exploratory & Localization Testing"
     },
     "react": {
-      "description": "Functional QA (FQA)"
+      "description": "Functional QA (FQA) & Regression"
     },
     "tailwind": {
-      "description": "Bug Tracking & Reporting"
+      "description": "Bug Tracking (Jira, TestRail)"
     },
     "typescript": {
       "description": "Python, C# & Java"
     },
     "git": {
-      "description": "Atlassian Jira & Confluence"
+      "description": "API Testing (Postman) & Agile (Scrum)"
     },
     "vercel": {
-      "description": "PC, PS5, XBOX & Switch"
+      "description": "PC, PS5, XBOX, Switch & Cloud"
     }
   },
   "projects": {
@@ -86,14 +86,14 @@
     "subtitle": "Key roles where I contributed to software and game quality.",
     "astroPortfolio": {
       "shortDescription": "Comprehensive functional QA for multiple high-profile AAA titles.",
-      "challenge": "Ensure a smooth, bug-free experience for players across complex game systems and hardware platforms.",
-      "approach": "Executed manual test plans, performed exploratory and regression testing, and documented over 1000 bugs using Jira.",
+      "challenge": "Ensure a smooth, bug-free experience for players across complex game systems, hardware platforms, and online multiplayer environments.",
+      "approach": "Executed manual test plans, performed exploratory and regression testing, and documented over 1000 bugs using Jira. Collaborated with devs in Agile sprints.",
       "result": "Contributed to a significantly higher quality bar for released titles, helping prevent critical issues from reaching players."
     },
     "coreprotectWebUI": {
       "shortDescription": "Managed hardware and software demands for a network of 1,000+ users.",
       "challenge": "Maintain critical IT infrastructure for a large government secretariat, ensuring minimal downtime for essential public services.",
-      "approach": "Provided hands-on technical support, diagnosed and resolved hardware and software issues, and managed user demands under pressure.",
+      "approach": "Provided hands-on technical support, diagnosed hardware/software issues, and managed user demands under pressure.",
       "result": "Developed strong resilience and problem-solving skills, ensuring continuous operation for a large user base."
     },
     "templateCollection": {
