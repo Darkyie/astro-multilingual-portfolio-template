@@ -13,7 +13,7 @@
   "hero": {
     "greeting": "Olá, eu sou",
     "name": "Igor Benites Moura",
-    "pitch": "Ajudo equipes de jogos e software a entregar produtos de maior qualidade, identificando bugs críticos antes que cheguem aos jogadores e usuários. Combino profundidade técnica com uma mentalidade analítica e orientada a detalhes.",
+    "pitch": "Ajudo equipes de jogos e software a entregar produtos de maior qualidade, identificando bugs críticos antes que cheguem aos jogadores. Combino conhecimento técnico profundo, metodologias ágeis e uma mentalidade analítica para garantir experiências impecáveis.",
     "role": "Analista de QA | Testador de Jogos | Python | C# | Java",
     "ctaProjects": "Ver Experiência",
     "ctaAbout": "Mais Sobre Mim"
@@ -23,10 +23,10 @@
     "subtitle": "Estes três valores moldam meu trabalho e me ajudam a garantir a mais alta qualidade em cada projeto.",
     "card1Title": "Analítico e Detalhista",
     "card1Text": "Procuro entender 'debaixo do capô' a arquitetura e as restrições de hardware, fornecendo aos desenvolvedores relatórios de defeitos precisos, acionáveis e tecnicamente fundamentados.",
-    "card2Title": "Resiliente Sob Pressão",
-    "card2Text": "Desde o gerenciamento de demandas de TI para mais de 1.000 usuários até o ambiente acelerado do desenvolvimento de jogos AAA, mantenho o foco e resolvo problemas críticos rapidamente.",
-    "card3Title": "Colaborativo e Focado em Soluções",
-    "card3Text": "Acredito que os melhores produtos vêm do equilíbrio entre excelência técnica e uma mentalidade colaborativa, trabalhando lado a lado com equipes multifuncionais."
+    "card2Title": "Ágil e Colaborativo",
+    "card2Text": "Experiente em ambientes Ágeis (Scrum/Kanban), trabalho próximo a equipes multifuncionais para resolver problemas críticos rapidamente e manter o ciclo de desenvolvimento fluindo.",
+    "card3Title": "Resiliente e Proativo",
+    "card3Text": "Desde o gerenciamento de demandas para mais de 1.000 usuários até o ambiente acelerado de jogos AAA, mantenho o foco sob pressão, antecipando riscos antes que se tornem bloqueios."
   },
   "skills": {
     "title": "Habilidades e Ferramentas",
@@ -34,15 +34,15 @@
     "clusters": {
       "frontend": {
         "title": "Garantia de Qualidade",
-        "description": "Testes manuais, QA funcional e rastreamento abrangente de bugs."
+        "description": "Testes manuais, QA funcional, localização e rastreamento abrangente de bugs."
       },
       "design": {
         "title": "Fundação Técnica",
-        "description": "Lógica de ciência da computação, arquitetura de software e solução de problemas de hardware."
+        "description": "Lógica de ciência da computação, testes de API e arquitetura de software."
       },
       "tools": {
         "title": "Plataformas e Ferramentas",
-        "description": "Controle de versão, rastreamento de problemas e testes em várias plataformas de jogos."
+        "description": "Metodologias ágeis, rastreamento de problemas e testes em várias plataformas de jogos."
       }
     },
     "category": {
@@ -52,22 +52,22 @@
       "deployment": "Ferramentas"
     },
     "astro": {
-      "description": "Testes Manuais e Exploratórios"
+      "description": "Testes Manuais, Exploratórios e de Localização"
     },
     "react": {
-      "description": "QA Funcional (FQA)"
+      "description": "QA Funcional (FQA) e Regressão"
     },
     "tailwind": {
-      "description": "Rastreamento e Relato de Bugs"
+      "description": "Rastreamento de Bugs (Jira, TestRail)"
     },
     "typescript": {
       "description": "Python, C# e Java"
     },
     "git": {
-      "description": "Atlassian Jira e Confluence"
+      "description": "Testes de API (Postman) e Ágil (Scrum)"
     },
     "vercel": {
-      "description": "PC, PS5, XBOX e Switch"
+      "description": "PC, PS5, XBOX, Switch e Cloud"
     }
   },
   "projects": {
@@ -86,14 +86,14 @@
     "subtitle": "Funções principais onde contribuí para a qualidade de software e jogos.",
     "astroPortfolio": {
       "shortDescription": "QA funcional abrangente para múltiplos títulos AAA de grande porte.",
-      "challenge": "Garantir uma experiência suave e livre de bugs para jogadores em sistemas complexos e plataformas de hardware.",
-      "approach": "Executei planos de teste manuais, realizei testes exploratórios e de regressão, e documentei mais de 1000 bugs usando Jira.",
+      "challenge": "Garantir uma experiência suave e livre de bugs para jogadores em sistemas complexos, plataformas de hardware e ambientes multiplayer online.",
+      "approach": "Executei planos de teste manuais, realizei testes exploratórios e de regressão, e documentei mais de 1000 bugs usando Jira. Colaborei com devs em sprints ágeis.",
       "result": "Contribuí para um padrão de qualidade significativamente mais alto nos títulos lançados, ajudando a evitar que problemas críticos chegassem aos jogadores."
     },
     "coreprotectWebUI": {
       "shortDescription": "Gerenciamento de demandas de hardware e software para uma rede de mais de 1.000 usuários.",
       "challenge": "Manter a infraestrutura crítica de TI de uma grande secretaria do governo, garantindo o mínimo de tempo de inatividade para serviços públicos essenciais.",
-      "approach": "Prestei suporte técnico prático, diagnostiquei e resolvi problemas de hardware e software, e gerenciei demandas de usuários sob pressão.",
+      "approach": "Prestei suporte técnico prático, diagnostiquei problemas de hardware/software e gerenciei demandas de usuários sob pressão.",
       "result": "Desenvolvi forte resiliência e habilidades de resolução de problemas, garantindo a operação contínua para uma grande base de usuários."
     },
     "templateCollection": {
@@ -122,16 +122,16 @@
     "buttonText": "Enviar um Email"
   },
   "contact": {
-    "title": "Contact",
-    "subtitle": "Feel free to reach out for opportunities or collaborations!",
+    "title": "Contato",
+    "subtitle": "Sinta-se à vontade para entrar em contato para oportunidades ou colaborações!",
     "emailTitle": "Email",
-    "emailButtonText": "Send Email",
-    "phoneTitle": "Phone",
-    "phoneButtonText": "Call Me",
+    "emailButtonText": "Enviar Email",
+    "phoneTitle": "Telefone",
+    "phoneButtonText": "Ligar",
     "githubTitle": "LinkedIn",
-    "githubButtonText": "View Profile",
+    "githubButtonText": "Ver Perfil",
     "linkedinTitle": "LinkedIn",
-    "linkedinButtonText": "Connect on LinkedIn"
+    "linkedinButtonText": "Conectar no LinkedIn"
   },
   "footer": {
     "copyright": "Todos os direitos reservados.",
